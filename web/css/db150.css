@@ -1,0 +1,25 @@
+.table-background {
+    background-color: #797979;
+    border-radius: 5px;
+}
+
+.td-db150 {
+    border: 0px;
+}
+.tr-db150 {
+    background-color: #fff;
+}
+.tr-db150:hover,.td-db150:hover {
+    background-color: #ffec92;
+}
+.tables {
+    overflow-x: scroll;
+}
+input {
+    padding: 3px;
+}
+textarea {
+    border-radius: 5px;
+    font-family: "Lucida Console";
+    font-size: 16px;
+}

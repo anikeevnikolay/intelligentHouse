@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+    /*max-width: 800px;*/
+    width: 100%;// 800px;
+    font-size: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+.header-class {
+    padding: 10px 0 10px 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #ffffed;
+}
+
+.basic-class {
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #000000;
+    border-top-style: none;
+    border-radius: 1px 1px 10px 10px;
+    background-color: #fffff9;
+    margin: 0 auto;
+    /*max-width: 770px;*/
+    width: 98%;//770px;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+.fill-class {
+    background-color: #ffffed;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    padding: 5px 5px 5px 5px;
+    border: 0px solid #ffffed;
+    color: #4c4c4c;
+}
+
+a:visited {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #ffffed;
+    color: #797979;
+}
+
+a:active {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #ffffed;
+    color: #ba0000;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #ba0000;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+h1 {
+    color: #041e60;
+}
+
+h2 {
+    color: #021442;
+}
+
+h3 {
+    color: #030c25;
+}
+
+.table-head {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+select,input {
+    background-color: #fff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+input[type=submit]:hover {
+    background-color: #fff;
+    color: #ba0000;
+}
+input[type=submit],input:hover,select:hover {
+    background-color: #ba0000;
+    color: #fff;
+}
+.alarm-div {
+    background-color: salmon;
+    /*border: 1px red solid;*/
+    border-radius: 5px;
+}

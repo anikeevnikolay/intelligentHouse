@@ -1,0 +1,29 @@
+canvas {
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: #fff;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+canvas:hover {
+    border: 2px ridge;
+}
+input {
+    border-radius: 10px 0px 10px 0px;
+}
+.key {
+    background-color: #fff;
+    border-radius: 2px;
+    border: 2px outset;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+}
+.keys-container {
+    text-align: center;
+    padding: 10px;
+    white-space: nowrap;
+}

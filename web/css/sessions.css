@@ -1,0 +1,14 @@
+.s-table {
+    width: 100%;
+    padding: 10px;
+}
+
+.s-td:hover {
+    border: 1px solid black;
+    padding: 0px;
+}
+
+.s-td {
+    padding: 1px;
+    border-radius: 5px;
+}

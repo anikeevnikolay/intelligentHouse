@@ -1,0 +1,20 @@
+.status-td {
+    border: 1px solid black;
+}
+.status-div {
+    border: 1px solid black;
+    border-radius: 3px;
+    min-height: 15px;
+}
+.hide-div {
+    overflow: hidden;
+    height: 2em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+.normal-div, .hide-div:hover {
+    overflow: auto;
+    height: auto;
+    white-space: pre-wrap;
+}

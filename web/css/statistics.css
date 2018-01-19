@@ -1,0 +1,35 @@
+canvas {
+    margin: 10px;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+canvas:hover {
+    border: 2px red solid;
+}
+
+a[class=no-border]:hover {
+    padding: 0px;
+    border: 0px;
+    background: none;
+}
+
+a[class=no-border]:link {
+    padding: 0px;
+    border: 0px;
+    background: none;
+}
+
+a[class=no-border]:visited {
+    padding: 0px;
+    border: 0px;
+    background: none;
+}
+
+a[class=no-border] {
+    padding: 0px;
+    border: 0px;
+    background: none;
+}
